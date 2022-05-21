@@ -29,15 +29,15 @@ function App() {
 
       <main className="container"> 
         <div className="jumbotron " >
-          <h1>Verifique agora a previsão do tempo da sua cidade
-            
+          <h1 className="row md-6">
+            Verifique agora a previsão do tempo da sua cidade
           </h1>
           
-          <p className="lead">
+          <p className="lead row md-6">
             Digite o nome da sua cidade no campo abaixo e em seguida clique em pesquisar
           </p>
           <div className="row mb-4">
-            <div className="row md-6">
+            <div className="row mb-6">
               <input 
               onChange={handleChange}
               className="form-control" 
@@ -60,13 +60,13 @@ function App() {
               <div>
                 <h3>hoje o dia esta de: {weatherForecast.current.condition.text}</h3>
                 <p>
-                  <b>Região:</b>{weatherForecast.location.region}
+                  <b>Região: </b>{weatherForecast.location.region}
                 </p>
                 <p>
-                  <b>Cidade:</b> {weatherForecast.location.name}
+                  <b>Cidade: </b> {weatherForecast.location.name}
                 </p>
                 <p>
-                  <b>Temp:</b> {weatherForecast.current.temp_c}°C
+                  <b>Temp: </b> {weatherForecast.current.temp_c}°C
                 </p>
               </div>
             </div>
