@@ -23,7 +23,7 @@ function App() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <a className="navbar-brand text-white" href="/">
-            Qual o clima agora ?
+            Como esta o clima ?
         </a>
       </nav>
 
