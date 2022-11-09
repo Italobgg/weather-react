@@ -1,7 +1,7 @@
 .wallpaper {
     position: relative;
-    height: 100vh;
-    width: 100vw;
+    height: 101vh;
+    width: 101vw;
     /* adicionando imagem de fundo */
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274_960_720.jpg');
     background-size: cover;
